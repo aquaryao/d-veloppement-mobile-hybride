@@ -1,0 +1,43 @@
+<!DOCtype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Première démo</title>
+    <script src="module2_1.js"></script>
+</head>
+<body>
+<script>
+    document.write("Début du body");
+</script>
+<h1 id="titre">Ma page avec du JS</h1>
+
+<script>
+    function afficher(form2) {
+    var testin =document. form2.input.value;
+    document.form2.output.value=testin
+    var testin =document. form2.test.value;
+    document.form2.test2.value=testin
+    var testin =document. form2.start.value;
+    document.form2.date.value=testin
+    }
+    </script>
+
+<form name="form2">
+    <input type="text" name="input" value=""> test entree<BR>
+    <input type="test" name="test" value=""> nom<br>
+    <input type="date" id="start" name="trip-start" value="2022-04-4">
+    <input type="button" name="bouton" value="Afficher" onClick="afficher(form2)"><BR>
+    <textarea id="story" name="output" rows="5" cols="33">
+    </textarea>
+    <textarea id="story" name="test2" rows="5" cols="33"></textarea>
+    <textarea id="story" name="date" rows="5" cols="33"></textarea>
+</FORM>
+<script>
+    // Appel d'une fonction présente dans le foichier chargé plus haut
+    chargerContenu()
+</script>
+<script>
+    document.write("Fin du body");
+</script>
+</body>
+</html>
